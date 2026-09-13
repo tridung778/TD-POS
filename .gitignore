@@ -1,0 +1,23 @@
+node_modules
+.dist
+.cache
+*.tsbuildinfo
+dist
+.turbo
+.next
+.parcel-cache
+.vercel
+*.local
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*

@@ -1,0 +1,14 @@
+{
+  "name": "@retailflow/config-eslint",
+  "version": "0.0.0",
+  "private": true,
+  "files": ["*"],
+  "dependencies": {
+    "@eslint/js": "^9.0.0",
+    "@typescript-eslint/eslint-plugin": "^8.0.0",
+    "@typescript-eslint/parser": "^8.0.0",
+    "eslint": "^9.0.0",
+    "eslint-plugin-import": "^2.30.0",
+    "globals": "^16.0.0"
+  }
+}

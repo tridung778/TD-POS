@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["DOM", "DOMIterable", "DOM", "ES2022", "WebWorker"],
+    "allowJs": false,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmits": true,
+    "esModuleInterop": true,
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "tsconfig-paths",
+        "paths": {}
+      }
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "@retailflow/*": ["../../packages/*/src"]
+    }
+  },
+  "exclude": ["node_modules"]
+}

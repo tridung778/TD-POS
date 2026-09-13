@@ -1,0 +1,3 @@
+{
+  "extends": "@retailflow/config-typescript"
+}
